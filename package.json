@@ -2,9 +2,9 @@
   "name": "RASHU-MD",
   "version": "3.0.0",
   "description": "A WhatsApp bot created using Node.js",
-  "main": "index.js",
+  "main": "rashu.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name RASHU-MD",
+    "start": "pm2 start rashu.js --deep-monitoring --attach --name RASHU-MD",
     "stop": "pm2 stop RASHU-MD",
     "restart": "pm2 restart RASHU-MD"
   },
